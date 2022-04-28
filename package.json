@@ -1,21 +1,21 @@
 {
-    "name": "nightfox",
-    "displayName": "Nightfox",
-    "description": "A foxy theme. A port of a theme originally made by EdenEast.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.66.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Nightfox",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Nightfox-color-theme.json"
-            }
-        ]
-    }
+  "name": "nightfox",
+  "displayName": "Nightfox",
+  "description": "A foxy theme. A port of a theme originally made by EdenEast.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightfox-dark-theme.json"
+      }
+    ]
+  }
 }
