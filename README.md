@@ -40,7 +40,7 @@
 <br/>
 
 # Upcoming
-This port is a work in progress. 1 theme color is completed at this time (still working on the token colours). The remaining theme colours are on their way in the coming weeks.
+This port is a work in progress. One theme color is completed at this time (still working on the token colours). The remaining theme colours are on their way in the coming weeks.
 
 # Credit
 <p align="center">
