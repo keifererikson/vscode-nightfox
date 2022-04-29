@@ -3,6 +3,18 @@
   "displayName": "Nightfox",
   "description": "A foxy theme. A port of a theme originally made by EdenEast.",
   "version": "0.0.1",
+  "publisher": "keifererikson",
+  "author": {
+    "name": "Keifer Erikson",
+    "email": "keiferkode@gmail.com"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "homepage": "https://github.com/keifererikson/vscode-nightfox",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/keifererikson/vscode-nightfox.git"
+	},
   "engines": {
     "vscode": "^1.66.0"
   },
