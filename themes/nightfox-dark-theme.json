@@ -95,11 +95,11 @@
     "editorBracketMatch.background": "#f4a26146",
     "editorBracketMatch.border": "#f4a26122",
     "editorBracketHighlight.foreground1": "#cdcecf",
-    "editorBracketHighlight.foreground2": "#dbc074",
-    "editorBracketHighlight.foreground3": "#63cdcf",
-    "editorBracketHighlight.foreground4": "#81b29a",
-    "editorBracketHighlight.foreground5": "#719cd6",
-    "editorBracketHighlight.foreground6": "#9d79d6",
+    "editorBracketHighlight.foreground2": "#9d79d6",
+    "editorBracketHighlight.foreground3": "#81b29a",
+    "editorBracketHighlight.foreground4": "#719cd6",
+    "editorBracketHighlight.foreground5": "#dbc074",
+    "editorBracketHighlight.foreground6": "#7AD4D6",
     "editorBracketHighlight.unexpectedBracket.foreground": "#c94f6d",
 
     "editorGroup.border": "#212e3f",
@@ -343,7 +343,7 @@
       "name": "[Constant] — The main constants color",
       "scope": "constant",
       "settings": {
-        "foreground": "#9d79d6"
+        "foreground": "#86ABDC"
       }
     },
     {
@@ -357,14 +357,14 @@
       "name": "[Meta] — The main color for Meta",
       "scope": "meta",
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#63cdcf"
       }
     },
     {
       "name": "[invalid] — The main color for invalid",
       "scope": "invalid",
       "settings": {
-        "foreground": "#EC3A37F5"
+        "foreground": "#C94F6D"
       }
     },
     {
@@ -382,7 +382,7 @@
       "name": "[Punctuation] — The main color for Punctuation",
       "scope": "punctuation",
       "settings": {
-        "foreground": "#aeafb0"
+        "foreground": "#AEAFB0"
       }
     },
     {
@@ -403,49 +403,49 @@
       "name": "[Storage] — The main color for Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#FAD000"
+        "foreground": "#9D79D6"
       }
     },
     {
       "name": "[Storage] — The color for Storage Type Arrow Function",
       "scope": "storage.type.function.arrow",
       "settings": {
-        "foreground": "#FAD000"
+        "foreground": "#9D79D6"
       }
     },
     {
       "name": "[String]",
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#A5FF90"
+        "foreground": "#81b29a"
       }
     },
     {
       "name": "[String] Template Color",
       "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
-        "foreground": "#3AD900"
+        "foreground": "#81b29a"
       }
     },
     {
       "name": "[Support]",
       "scope": "support",
       "settings": {
-        "foreground": "#80FFBB"
+        "foreground": "#7AD4D6"
       }
     },
     {
       "name": "[Support] Function Colors",
       "scope": "support.function",
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#C94F6D"
       }
     },
     {
       "name": "[Support] Variable Property DOM Colors",
       "scope": "support.variable.property.dom",
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#7AD4D6"
       }
     },
     {
@@ -494,7 +494,7 @@
       "name": "[CSS] - Color for Class Selector",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#719CD6"
       }
     },
     {
@@ -518,7 +518,7 @@
       "name": "[CSS] - Color for Support",
       "scope": ["source.css support", "entity.name.tag.css", "source.stylus support"],
       "settings": {
-        "foreground": "#A5FF90"
+        "foreground": "#E0C989"
       }
     },
     {
@@ -530,7 +530,7 @@
         "source.stylus support.constant"
       ],
       "settings": {
-        "foreground": "#FFEE80"
+        "foreground": "#86ABDC"
       }
     },
     {
@@ -542,7 +542,7 @@
         "source.stylus punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#FFEE80"
+        "foreground": "#81B29A"
       }
     },
     {
@@ -560,8 +560,6 @@
         "entity.name.tag.inline.any.html",
         "meta.tag.other.html",
         "meta.tag.inline.any.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
         "entity.name.tag",
         "meta.tag.other.html",
         "meta.tag.other.js",
@@ -574,7 +572,18 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#9d79d6"
+      }
+    },
+    {
+      "name": "[HTML] - Tag angle brackets",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+
+      ],
+      "settings": {
+        "foreground": "#AEAFB0"
       }
     },
     {
@@ -602,7 +611,7 @@
       "name": "[HTML] - Quotes. Different color to handle expanded selection",
       "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
       "settings": {
-        "foreground": "#92FC79"
+        "foreground": "#81B29A"
       }
     },
     {
@@ -616,28 +625,28 @@
       "name": "[JSON] - Color for Support",
       "scope": "source.json support",
       "settings": {
-        "foreground": "#FAD000"
+        "foreground": "#E0C989"
       }
     },
     {
       "name": "[JSON] - Color for String",
       "scope": ["source.json string", "source.json punctuation.definition.string"],
       "settings": {
-        "foreground": "#92FC79"
+        "foreground": "#81B29A"
       }
     },
     {
       "name": "[JAVASCRIPT] - Color for Storage Type Function",
       "scope": "source.js storage.type.function",
       "settings": {
-        "foreground": "#FB94FF"
+        "foreground": "#9D79D6"
       }
     },
     {
       "name": "[JAVASCRIPT] - Color for Variable Language",
       "scope": "variable.language, entity.name.type.class.js",
       "settings": {
-        "foreground": "#FB94FF"
+        "foreground": "#9D79D6"
       }
     },
     {
@@ -651,7 +660,7 @@
       "name": "[JAVASCRIPT] - Color for React Extends keyword",
       "scope": ["storage.type.extends.js", "storage.type.class.jsdoc"],
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#9D79D6"
       }
     },
     {
@@ -665,14 +674,14 @@
       "name": "[JAVASCRIPT] — Doc Var Types",
       "scope": ["variable.other.jsdoc", "entity.name.type.instance.jsdoc"],
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#D6D6D7"
       }
     },
     {
       "name": "[JAVASCRIPT] — Var Types",
       "scope": ["variable.other.constant"],
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#D6D6D7"
       }
     },
     {
@@ -699,7 +708,7 @@
         "keyword.operator"
       ],
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#9D79D6"
       }
     },
     {
@@ -713,14 +722,14 @@
       "name": "Typescript React Assignment Operator",
       "scope": ["keyword.operator.assignment.tsx", "keyword.operator.assignment.jsx"],
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#D6D6D7"
       }
     },
     {
       "name": "[JAVASCRIPT] Keyword Operator Assignment",
       "scope": "keyword.operator.assignment",
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#D6D6D7"
       }
     },
     {
@@ -734,7 +743,7 @@
       "name": "[JAVASCRIPT] - Object keys",
       "scope": "meta.object-literal.key.js",
       "settings": {
-        "foreground": "#80FFBB"
+        "foreground": "#E0C989"
       }
     },
     {
@@ -758,7 +767,7 @@
         "variable.other.object.js"
       ],
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#D6D6D7"
       }
     },
     {
@@ -779,14 +788,14 @@
       "name": "[JAVASCRIPT] - Parameters",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#CDCECF"
       }
     },
     {
       "name": "[PYTHON] - Color for Self Argument",
       "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#CDCECF"
       }
     },
     {
@@ -948,7 +957,7 @@
         "meta.image.inline.markdown string.other.link.description.title.markdown"
       ],
       "settings": {
-        "foreground": "#A5FF90",
+        "foreground": "#81B29A",
         "fontStyle": ""
       }
     },
@@ -1109,7 +1118,7 @@
         "variable.other.property"
       ],
       "settings": {
-        "foreground": "#FAD000"
+        "foreground": "#63CDCF"
       }
     },
     {
