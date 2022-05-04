@@ -366,14 +366,14 @@
       "name": "[Keyword] — The main color for Keyword",
       "scope": ["keyword, storage.type.class.js"],
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#9D79D6"
       }
     },
     {
       "name": "[Meta] — The main color for Meta",
       "scope": "meta",
       "settings": {
-        "foreground": "#63cdcf"
+        "foreground": "#63CDCF"
       }
     },
     {
@@ -391,7 +391,7 @@
         "punctuation.definition.parameters.end.js"
       ],
       "settings": {
-        "foreground": "#aeafb0"
+        "foreground": "#AEAFB0"
       }
     },
     {
@@ -410,14 +410,14 @@
       "name": "[Punctuation] — Color for Punctuation Parameters",
       "scope": "punctuation.definition.parameters",
       "settings": {
-        "foreground": "#FFEE80"
+        "foreground": "#AEAFB0"
       }
     },
     {
       "name": "[Punctuation] — Color for Punctuation Template Expression",
       "scope": "punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#FFEE80"
+        "foreground": "#AEAFB0"
       }
     },
     {
@@ -483,7 +483,7 @@
     },
     {
       "name": "[CSS] Function Colors",
-      "scope": "support.function.misc.css",
+      "scope": ["support.function.misc.css", "support.function.calc.css", "support.function"],
       "settings": {
         "foreground": "#86ABDC"
       }
@@ -499,42 +499,59 @@
       "name": "[Variable]",
       "scope": "variable",
       "settings": {
-        "foreground": "#E1EFFF"
+        "foreground": "#D6D6D7"
       }
     },
     {
       "name": "[INI] - Color for Entity",
       "scope": ["source.ini entity", "meta.embedded.block.ini", "source.ini"],
       "settings": {
-        "foreground": "#E1EFFF"
+        "foreground": "#F4A261"
       }
     },
     {
       "name": "[INI] - Color for Keyword",
       "scope": ["source.ini keyword", "keyword.other.definition.ini"],
       "settings": {
-        "foreground": "#FAD000"
+        "foreground": "#9D79D6"
       }
     },
     {
       "name": "[INI] - Color for Punctuation Definition",
       "scope": ["source.ini punctuation.definition"],
       "settings": {
-        "foreground": "#FFEE80"
+        "foreground": "#E0C989"
       }
     },
     {
       "name": "[INI] - Color for Punctuation Separator",
       "scope": ["source.ini punctuation.separator", "punctuation.separator.key-value.ini"],
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#AEAFB0"
       }
     },
     {
       "name": "[CSS] - Color for Entity",
       "scope": ["source.css entity", "source.stylus entity"],
       "settings": {
-        "foreground": "#3AD900"
+        "foreground": "#9D79D6"
+      }
+    },
+    {
+      "name": "[CSS] - Color for body",
+      "scope": ["meta.at-rule.keyframes", "meta.property-value"],
+      "settings": {
+        "foreground": "#CDCECF"
+      }
+    },
+    {
+      "name": "[CSS] - Color for percentage",
+      "scope": [
+        "source.css entity.other.keyframe-offset.percentage",
+        "source.stylus entity.other.keyframe-offset.percentage"
+      ],
+      "settings": {
+        "foreground": "#C94F6D"
       }
     },
     {
@@ -558,7 +575,7 @@
       "name": "[CSS] - Color for Element Selector",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#DBC074"
       }
     },
     {
@@ -583,7 +600,14 @@
       }
     },
     {
-      "name": "[CSS] - Color for Constant",
+      "name": "[CSS] - Color for important",
+      "scope": ["keyword.other.important.css", "punctuation.definition.keyword.css"],
+      "settings": {
+        "foreground": "#9D79D6"
+      }
+    },
+    {
+      "name": "[CSS] - Color for unit",
       "scope": ["keyword.other.unit"],
       "settings": {
         "foreground": "#91BCA7"
@@ -617,7 +641,14 @@
       "name": "[CSS] - Color for Variable",
       "scope": ["source.css variable", "source.stylus variable"],
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#DBC074"
+      }
+    },
+    {
+      "name": "[CSS] - Color for Variable",
+      "scope": ["meta.at-rule.media.header.css"],
+      "settings": {
+        "foreground": "#CDCECF"
       }
     },
     {
@@ -938,6 +969,13 @@
       "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#63CDCF"
+      }
+    },
+    {
+      "name": "[CSS] - Parameters",
+      "scope": ["variable.parameter.keyframe-list.css"],
+      "settings": {
+        "foreground": "#CDCECF"
       }
     },
     {
