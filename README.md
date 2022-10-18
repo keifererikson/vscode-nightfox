@@ -24,11 +24,27 @@
 </p>
 </br>
 <div align="center">
-  <h3>Nightfox</h3><img width="700" height="auto" src="https://user-images.githubusercontent.com/2746374/158456286-9e3ee657-60e6-49d8-b85e-dcab285b31c3.png" alt="nightfox" style="border-radius:1%" /><br/>
-  <em>This is a temporary image.</em>
+  <h3>Nightfox</h3><img width="700" height="auto" src="https://user-images.githubusercontent.com/509779/196326667-f247d1d8-0c61-48fa-b2a8-b455370ace8a.png" alt="nightfox" style="border-radius:1%" /><br/>
+</div>
+
+<div align="center">
+  <h3>Duskfox</h3><img width="700" height="auto" src="https://user-images.githubusercontent.com/509779/196327000-f3bbb629-d257-4dc7-af1e-022a2c135f82.png" alt="nightfox" style="border-radius:1%" /><br/>
+</div>
+
+<div align="center">
+  <h3>Nordfox</h3><img width="700" height="auto" src="https://user-images.githubusercontent.com/509779/196326774-c7601885-786e-4d1d-8748-8524087c2e22.png" alt="nightfox" style="border-radius:1%" /><br/>
+</div>
+
+<div align="center">
+  <h3>Carbonfox</h3><img width="700" height="auto" src="https://user-images.githubusercontent.com/509779/196326493-5f0592ba-be59-4ec0-80aa-cc379019f36f.png" alt="nightfox" style="border-radius:1%" /><br/>
+</div>
+
+<div align="center">
+  <h3>Terafox</h3><img width="700" height="auto" src="https://user-images.githubusercontent.com/509779/196326562-8bb824d2-9954-4735-b23b-d7ac7e25247c.png" alt="nightfox" style="border-radius:1%" /><br/>
 </div>
 
 <br/>
+
 
 # Installation
 

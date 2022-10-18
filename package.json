@@ -24,9 +24,29 @@
   "contributes": {
     "themes": [
       {
+        "label": "Carbonfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbonfox-dark-theme.json"
+      },
+      {
+        "label": "Duskfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/duskfox-dark-theme.json"
+      },
+      {
         "label": "Nightfox",
         "uiTheme": "vs-dark",
         "path": "./themes/nightfox-dark-theme.json"
+      },
+      {
+        "label": "Nordfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nordfox-dark-theme.json"
+      },
+      {
+        "label": "Terafox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/terafox-dark-theme.json"
       }
     ]
   }
